@@ -12,7 +12,8 @@
 	export let sortBy = "";
 	export let sortOrder = 1;
 	export let iconAsc = '▲';
-	export let iconDesc = '▼';
+  export let iconDesc = '▼';
+  export let tableClass = "table";
 
 	let sortFunction = () => "";
 	let showFilterHeader = columns.some(c => c.filterOptions !== undefined);
