@@ -88,9 +88,9 @@
 </script>
 
 <style>
-	table {
+ /* table {
 	  width: 100%;
-	}
+	  } */
 	.isSortable {
 	  cursor: pointer;
 	}
@@ -100,7 +100,7 @@
 	}
 </style>
 
-<table>
+<table class="{tableClass}">
 	{#if showFilterHeader}
 		<tr>
 		  {#each columns as col}
